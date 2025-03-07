@@ -1,0 +1,8 @@
+下载链接：https://www.openssl.org/source/old/1.0.0/openssl-1.0.0f.tar.gz
+tar -xvzf openssl-1.0.0f.tar.gz
+cd openssl-1.0.0f
+./config shared 
+make
+编译完成的libssl.so.1.0.0&libcrypto.so.1.0.0
+复制到/usr/lib/x86_64-linux-gnu
+并重命名为libcrypto.so.10
